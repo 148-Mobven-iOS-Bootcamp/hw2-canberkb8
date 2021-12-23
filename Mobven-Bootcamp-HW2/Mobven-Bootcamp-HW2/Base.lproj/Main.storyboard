@@ -15,13 +15,57 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTP-wD-lFL">
+                                <rect key="frame" x="149" y="433" width="116" height="30"/>
+                                <state key="normal" title="Go To SecondVC"/>
+                                <connections>
+                                    <action selector="goToSecondVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kFB-Ri-AzS"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uTP-wD-lFL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9qj-5L-xbR"/>
+                            <constraint firstItem="uTP-wD-lFL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GPI-XU-ilI"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <segue destination="eyy-Je-cyh" kind="presentation" identifier="toSecondVC" modalPresentationStyle="fullScreen" id="Omb-zt-enp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="141" y="139"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="QGs-A9-UFA">
+            <objects>
+                <viewController id="eyy-Je-cyh" customClass="SecondViewController" customModule="Mobven_Bootcamp_HW2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qdd-bv-5oZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92a-dr-rZv">
+                                <rect key="frame" x="170.5" y="433" width="73" height="30"/>
+                                <state key="normal" title="DismissVC"/>
+                                <connections>
+                                    <action selector="dismissVC:" destination="eyy-Je-cyh" eventType="touchUpInside" id="nRY-L7-tpF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rg2-Us-2tF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="92a-dr-rZv" firstAttribute="centerX" secondItem="Qdd-bv-5oZ" secondAttribute="centerX" id="2vS-oI-f8u"/>
+                            <constraint firstItem="92a-dr-rZv" firstAttribute="centerY" secondItem="Qdd-bv-5oZ" secondAttribute="centerY" id="W1T-Q9-82U"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oOg-NK-7fY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="955" y="139"/>
         </scene>
     </scenes>
     <resources>

@@ -13,6 +13,8 @@
 		4D97B9F827746F0C00B2E34F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D97B9F627746F0C00B2E34F /* Main.storyboard */; };
 		4D97B9FA27746F0D00B2E34F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D97B9F927746F0D00B2E34F /* Assets.xcassets */; };
 		4D97B9FD27746F0D00B2E34F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D97B9FB27746F0D00B2E34F /* LaunchScreen.storyboard */; };
+		4D97BA062774718F00B2E34F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97BA052774718F00B2E34F /* SecondViewController.swift */; };
+		4D97BA0A2774776200B2E34F /* Notification + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97BA092774776200B2E34F /* Notification + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4D97B9F927746F0D00B2E34F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D97B9FC27746F0D00B2E34F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D97B9FE27746F0D00B2E34F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D97BA052774718F00B2E34F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4D97BA092774776200B2E34F /* Notification + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				4D97B9F927746F0D00B2E34F /* Assets.xcassets */,
 				4D97B9FB27746F0D00B2E34F /* LaunchScreen.storyboard */,
 				4D97B9FE27746F0D00B2E34F /* Info.plist */,
+				4D97BA052774718F00B2E34F /* SecondViewController.swift */,
+				4D97BA092774776200B2E34F /* Notification + Extension.swift */,
 			);
 			path = "Mobven-Bootcamp-HW2";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D97BA062774718F00B2E34F /* SecondViewController.swift in Sources */,
+				4D97BA0A2774776200B2E34F /* Notification + Extension.swift in Sources */,
 				4D97B9F527746F0C00B2E34F /* ViewController.swift in Sources */,
 				4D97B9F127746F0C00B2E34F /* AppDelegate.swift in Sources */,
 				4D97B9F327746F0C00B2E34F /* SceneDelegate.swift in Sources */,
